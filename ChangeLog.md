@@ -115,6 +115,9 @@ Other enhancements:
   be optimal yet. The terminal width can be overriden with the
   new `--terminal-width` command-line option (this works even on
   non-POSIX).
+* Detect when user changed .cabal file instead of package.yaml. This
+  was implemented upstream in hpack. See
+  [#3383](https://github.com/commercialhaskell/stack/issues/3383).
 
 Bug fixes:
 
